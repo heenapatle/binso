@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar section  */
+.navbar{
+    background-color: rgb(8, 8, 40);
+    padding: 0;
+    position: fixed;
+    z-index: 9999;
+}
+.nav-link{
+    color: white;
+}
+.nav-btn{
+    background-color: orange;
+    color: white;
+    height: 80px;
+    padding: 0 30px;
+    border-radius: 10px;
+}
+
+/* banner section  */
+.banner{
+    background-image: url("../image/bg-slider1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.banner-overlay{
+    background-color: #092753c9;
+    height:100vh;
+    color: white;
+}
+.banner-text span{
+    font-weight: 600;
+    font-size: 18px;
+}
+.banner-text h1{
+    font-weight: 700;
+    font-size: 100px;
+}
+.banner-text h1 span{
+    color: orange;
+    font-size: 100px;
+    font-weight: 700;
+}
+.banner-line{
+    background-color: orange;
+    height: 3px;
+    width: 400px;
+    margin: 10px 0;
+}
+button{
+    background-color: orange;
+    border-radius: 10px;
+    color: white;
+    height: 60px;
+    width: 190px;
+}
+
+
+/* feature section  */
+.feature-card{
+    background-color: orangered;
+    height: 250px;
+    padding: 20px 20px 0 20px;
+    width: 80%;
+}
+.f-img{
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    margin-top: -40px;
+}
+.f-img1{
+    background-image: url(../image/service-1.jpg);
+}
+.f-img2{
+    background-image: url(../image/service-2.jpg);
+}
+.f-img3{
+    background-image: url(../image/service-3.jpg);
+}
+.feature{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.fimg-overlay{
+    background-color: rgba(42, 17, 17, 0.493);
+    color: white;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 0px 40px 20px 40px;
+    text-align: center;
+}
+
+/* about section  */
+
+.about-text>span{
+    color: orangered;
+    font-weight: 600;
+}
+.about-text>h1{
+    font-weight: 700;
+}
+
+.a-h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: orangered;
+}
+.a-h4{
+    font-size: 18px;
+    color: grey;
+    margin-left:30px ;
+}
+
+button{
+    background-color: orange;
+    color: white;
+    height: 60px;
+    padding: 0 30px;
+    border-radius: 20px;
+}
+
+/* team section  */
+
+.team{
+    background-image: url("../image/bg-team1.jpg");
+    background-size: cover;
+    background-position: center;
+    /* height: 600px; */
+}
+.team-text span{
+    color: orangered;
+}
+
+.team-card{
+    background-color: black;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+.team-icon{
+    height: 60px;
+    width: 60px;
+    background-color: orangered;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin-top: -30px;
+}
+
+/* article section  */
+.article-card{
+    /* height: 400px; */
+    box-shadow: 2px 2px 2px gray;
+}
+.article-img{
+    background-image: url("../image/news-1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    padding: 10px;
+}
+.article-text span{
+    color: orangered;
+}
+.imgz{
+    background-image: url("../image/news-3.jpg");
+}
+.article-date{
+    height: 60px;
+    width: 60px;
+    color: white;
+    background-color: orangered;
+    padding: 5px;
+    text-align: center;
+    
+}
+.article-card a{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(189, 189, 189);
+    padding: 6px 0 6px 10px;
+    display: block;
+}
+.article-card p{
+    font-weight: 600;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+/* contact section  */
+.contact-text p{
+    font-weight: 600;
+    font-size: 18px;
+}
+.contact-icon{
+    height: 80px;
+    width: 80px;
+    background-color: orangered;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 80px;
+}
+.c-text span:first-child{
+    font-weight: 700;
+}
+.contact-form{
+    background-color: orangered;
+    border-radius: 10px;
+    padding: 20px;
+}
+.contact-form input, .contact-form textarea{
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    margin-top: 10px;
+}
+.contact-form button{
+    background-color: #092753;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 10px;
+}
+.contact-text>span{
+    color: orangered;
+}
+
+/* footer section  */
+.footer {
+    background-color: #0a1931;
+    color: white;
+    padding: 40px 0;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+.footer a:hover {
+    color: #f97316;
+}
+.social-icons a {
+    margin: 0 10px;
+    font-size: 20px;
+    
+    
+}
+.footer hr {
+    border-color: #fff;
+}
+.footer-line{
+    background-color: orangered;
+    height: 2px;
+    width: 150px;
+    margin: 10px 0;
+}
+.icon{
+    height:50px ;
+    width:50px;
+    border-radius: 50%;
+    background-color: grey;
+    padding: 8px;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
